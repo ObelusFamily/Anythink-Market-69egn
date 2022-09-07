@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+To Setup The Project On Your Local Machine
+1. Clone The Repository Using `git clone https://github.com/ObelusFamily/Anythink-Market-69egn/`
+2. Download [Docker](https://www.docker.com/products/docker-desktop/) And Setup With The Docs.
+3. After Cloning The Repo Navigate To The Repo Using You Favourite Terminal 
+4. Run `Docker-Compose Up`
+5. Your Website Is Up And Running At `localhost:3001`
