@@ -54,6 +54,7 @@ class Item extends React.Component {
                 alt={this.props.item.title}
                 className="item-img"
                 style={{ height: "500px", width: "100%", borderRadius: "6px" }}
+                onError={(event) => event.target.src = ''}
               />
             </div>
 
@@ -74,7 +75,7 @@ class Item extends React.Component {
           <div className="row bg-light-gray p-4">
             <CommentContainer
               comments={this.props.comments || []}
-              errors={this.props.commentErrors}
+              errors={this.props.commentErrors onError={(event) => event.target.removeAttribute('src')}}
               slug={this.props.match.params.id}
               currentUser={this.props.currentUser}
             />
